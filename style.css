@@ -1,0 +1,69 @@
+body {
+ /* background: #659999;  /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(to right, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
+  /*background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+background: #246AE3;
+background: -moz-linear-gradient(-45deg, #246AE3 0%, #4484F2 50%, #33A0B5 100%);
+background: -webkit-linear-gradient(-45deg, #246AE3 0%, #4484F2 50%, #33A0B5 100%);
+background: linear-gradient(135deg, #246AE3 0%, #4484F2 50%, #33A0B5 100%);
+  text-align: center;
+  font-family: 'Antic Didone';
+  font-weight: bold;
+  border: 5px solid black;
+  margin: 0 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#my-pic{
+    
+    margin-top: 30px;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+h1{
+    font-family: sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+.about-me{
+    background: lightblue;
+    border: 1px solid blue ;
+    border-radius: 8%;
+    font-size: 20px;
+    font-family: serif;
+    height: 230px;
+    width: 650px;
+}
+
+a{
+  color: darkblue;
+  text-decoration: none;
+}
+
+hr{
+  border-color: gray;
+}
+
+.photos{
+    margin-top: 20px;
+     border: 1px solid blue ;
+    border-radius: 10%;
+    width: 500px;
+    height: 500px;
+    height: 500px;
+        
+}
+
+h4{
+    font-weight: bold;
+    font-family: monospace;
+    font-size:20px;
+}
